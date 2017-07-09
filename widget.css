@@ -1,0 +1,114 @@
+@font-face { font-family: "PTSerifCustom"; src: url("fonts/PTSerif-Custom.otf"); }
+
+#holydateWidget {
+	width: 350px;
+}
+
+.drevleCalendar-box {
+	background: white;
+	font-family: "PTSerifCustom";
+	font-size: 1.2em;
+	max-height: 300px;
+	min-height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+
+.drevleCalendar-box .read-more {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	margin: 0;
+	background-image: linear-gradient(to bottom, transparent, white);
+}
+
+#readMore {
+	font-size: 0.8em;
+	padding: 5px;
+	background: white;
+}
+
+#drevleCalendarTop {
+	background-color: #FFFFFF;
+}
+
+nav {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	margin-left: 0.5em;
+	font-weight: bold;
+	font-family: "PT Serif Custom";
+	padding: 1em;
+}
+
+a {
+	padding: 0.3em;
+}
+
+a:hover {
+	background: rgba(255, 219, 157, 0.51);
+}
+
+a#calendarLeft {
+	cursor: pointer;
+}
+
+a#calendarRight {
+	cursor: pointer;
+}
+
+#date {
+	min-width: 240px;
+	text-align: center;
+	position: relative;
+	padding: 0.7em 0.3em 0.9em 0.3em;
+	left: 0;
+	right: 0px;
+	float: left;
+	margin-right: 0.5em;
+	margin-top: 0.8em;
+	margin-left: 0.5em;
+	font-weight: bold;
+	font-family: "PT Serif Caption";
+	font-size: 1.0em;
+	display: inline;
+}
+
+#tone {
+	font-family: "PT Serif Caption";
+	font-style: italic;
+}
+
+#dailyFeast {
+	font-family: "PT Serif Caption";
+	padding-bottom: 0.5em;
+}
+
+#fast {
+	font-family: "PT Serif Custom";
+}
+
+hr#fastDivisor {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.42);
+	margin-top: 1em;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color: #fe0100;
+}
+
+.twelve, .polyeleos, .glorium, .six {
+	font-family: "PT Serif Custom";
+
+}

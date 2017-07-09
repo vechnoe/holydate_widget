@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif+Caption:400,400italic|PT+Sans+Caption:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="widget.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/ru.js"></script>
+    <script src="widget.js"></script>
+  </head>
+  <body>
+    <div id="holydateWidget">
+    <div id="drevleCalendarTop">
+
+      <div id="date">
+        <div id="dayOfWeek"></div>
+        <div id="gregorianDate"></div>
+        <div id="julianDate"></div>
+        <div id="tone"></div>
+      </div>
+
+      <nav>
+        <a href="#" id="calendarLeft">← Вчера</a>
+        <a href="#" id="today">Сегодня</a>
+        <a href="#" id="calendarRight">Завтра →</a>
+      </nav>
+
+      <div class="drevleCalendar-box">
+        <div id="dailyFeast"></div>
+        <div id="saints"></div>
+        <div class="read-more"><a id="readMore" target="_blank">Подробнее...</a></div>
+      </div>
+
+      <hr id="fastDivisor"/>
+
+      <div id="fast"></div>
+    </div>
+  </div>
+  </body>
+</html>
+
