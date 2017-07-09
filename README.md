@@ -1,6 +1,6 @@
 # Holydate widget
 
-![Holydate_widget](https://github.com/vechnoe/holydate_widget/images/holydate_widget-preview.png)
+![Holydate_widget](https://github.com/vechnoe/holydate_widget/blob/master/images/holydate_widget-preview.png?raw=true)
 
 ## Usage
 
